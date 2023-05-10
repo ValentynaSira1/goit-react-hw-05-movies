@@ -1,0 +1,10 @@
+.input {
+    min-width: 250px;
+    padding: 4px;
+}
+
+.button {
+    padding: 5px;
+    background-color: #fff;
+    border: 1px solid #847878;
+}
