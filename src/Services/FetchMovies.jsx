@@ -82,3 +82,4 @@ export const fetchSearchMovies = async search => {
     console.log(error);
   }
 };
+
