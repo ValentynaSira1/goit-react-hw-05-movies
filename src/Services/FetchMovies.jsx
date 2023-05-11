@@ -2,7 +2,7 @@ import axios from 'axios';
 
 export const fetchTrendingMovies = async () => {
   const URL = 'https://api.themoviedb.org/3/trending/all/day';
-  const KEY = 'efcd079eaa7382b8a49b8fa3c0261e85';
+  const KEY = '3a46a7267a5317e24c5053073610996d';
 
   const options = new URLSearchParams({
     api_key: KEY,
@@ -18,7 +18,7 @@ export const fetchTrendingMovies = async () => {
 
 export const fetchMovieById = async (id) => {
   const URL = `https://api.themoviedb.org/3/movie/${id}`;
-  const KEY = 'efcd079eaa7382b8a49b8fa3c0261e85';
+  const KEY = '3a46a7267a5317e24c5053073610996d';
 
   const options = new URLSearchParams({
     api_key: KEY,
@@ -36,7 +36,7 @@ export const fetchMovieById = async (id) => {
 
 export const fetchMovieCast = async (id) => {
   const URL = `https://api.themoviedb.org/3/movie/${id}/credits`;
-  const KEY = 'efcd079eaa7382b8a49b8fa3c0261e85';
+  const KEY = '3a46a7267a5317e24c5053073610996d';
 
   const options = new URLSearchParams({
     api_key: KEY,
@@ -52,7 +52,7 @@ export const fetchMovieCast = async (id) => {
 
 export const fetchMovieReviews = async (id) => {
   const URL = `https://api.themoviedb.org/3/movie/${id}/reviews`;
-  const KEY = 'efcd079eaa7382b8a49b8fa3c0261e85';
+  const KEY = '3a46a7267a5317e24c5053073610996d';
 
   const options = new URLSearchParams({
     api_key: KEY,
